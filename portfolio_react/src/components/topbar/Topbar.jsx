@@ -10,7 +10,7 @@ export default function Topbar() {
 
           </div>
         </div>
-        <h1>hello</h1>
+        <h1> </h1>
         <div className="right"></div>
   
       </div>

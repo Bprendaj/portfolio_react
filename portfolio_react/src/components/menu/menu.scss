@@ -17,6 +17,7 @@
         list-style: none;
         font-size: 18px;
         color: #df5d00be;
+        width: 80%;
 
         li{
             margin-bottom: 25px;
@@ -25,7 +26,13 @@
                 color: inherit;
                 text-decoration: none;
             }
+            
+            &:hover{
+                font-weight: 1000;
+            }
+
         }
     }
 }
+
 
