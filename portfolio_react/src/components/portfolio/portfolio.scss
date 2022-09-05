@@ -5,4 +5,68 @@
     background-size: cover;
     position: relative;
     height:800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+
+    }
+
+    ul{
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        li{
+            font-size: 15px;
+            margin-right: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .container{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .item{
+            width: 220px;
+            height: 200px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffcc80;
+            position: relative;
+
+            h3{
+                position: absolute;
+                font-size: 20px;
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+            }
+
+            &:hover{
+                background-color: linen;
+                img{
+                    opacity: 0.05;
+                    z-index: 0;
+            }
+        }
+    }
   }
+}
