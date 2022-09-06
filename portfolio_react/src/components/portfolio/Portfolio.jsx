@@ -18,8 +18,8 @@ export default function portfolio() {
           <h3>Databae</h3>
         </div>
         <div className="item">
-          <img src="assets/databaee.png" alt=""/>
-          <h3>Databae</h3>
+          <img src="assets/readme.png" alt=""/>
+          <h3>ReadMe Generator</h3>
         </div>
         <div className="item">
           <img src="assets/databaee.png" alt=""/>
